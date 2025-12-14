@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="source/styles/style.css">
+</head>
+
+<body data-bs-theme="light">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand py-0" href="/"><img src="source/files/komdim.png" alt="Logo" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" data-value="div-main"
+                onclick="onclickMenu(event)">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-value="div-gallery" onclick="onclickMenu(event)">Галерея</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Прочее
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" data-value="div-1" onclick="onclickMenu(event)">Документация</a>
+                </li>
+                <li><a class="dropdown-item" href="#" data-value="div-2" onclick="onclickMenu(event)">Услуги ЖКХ</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#" data-value="div-3" onclick="onclickMenu(event)">Аккардион</a></li>
+                <li><a class="dropdown-item" href="#" data-value="div-4" onclick="onclickMenu(event)">Карусель</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="test.html">Тестовая страница</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <!-- <h5 class="border border-2 border-secondary rounded-5 my-1 mx-5 py-2 px-4" id="clock"></h5> -->
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <section>
+    <!-- главная страгица -->
+    <div class="div-main container text-center">
+      <div class="row">
+        <div class="col-lg-3 col-md-2">
+        </div>
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="mt-2">Добро пожаловать!</h1>
+          <a href="https://picsum.photos/id/883/1200" target="_blank">
+            <img class="img-radius mt-2" src="https://picsum.photos/id/883/200" alt="Foto"></a>
+          <h2 class="mt-2">Тестовая страницы</h4>
+            <h4 class="mt-1">(My test page)</h4>
+            <p class="mt-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum commodi cupiditate excepturi
+              molestias,
+              magnam
+              quos natus unde voluptas id vitae voluptatibus laudantium fugiat, autem quibusdam blanditiis laborum,
+              eligendi
+              distinctio reiciendis?</p>
+            <a href="https://google.com" target="_blank" class="btn btn-primary my-4"><img src="source/files/google.ico"
+                alt="google" class="me-3">Google</a>
+        </div>
+        <div class="col-lg-3 col-md-2">
+          <h5 class="border border-2 border-secondary rounded-5  my-3 mx-5 py-2 px-4" id="clock"></h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- галерея -->
+    <div class="div-gallery container border border-primary">
+      <h2>Ссылки</h2>
+    </div>
+
+    <!-- Документация -->
+    <div class="div-1 container border border-primary">
+      <h2>Закладка 1</h2>
+    </div>
+
+    <!-- Услуги ЖКХ -->
+    <div class="div-2 container border border-primary">
+      <h2>Закладка 2</h2>
+    </div>
+
+    <!-- Аккардион -->
+    <div class="div-3 container border border-primary">
+      <h2>Аккардион 3</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In cum accusantium perferendis quos, impedit facilis
+        labore! Saepe perspiciatis quae cumque eos culpa velit blanditiis aspernatur hic maiores eius earum quasi
+        repellat facilis ipsa maxime nobis, reprehenderit iste optio? Deserunt, delectus hic, dolor quasi excepturi
+        libero ex incidunt dicta amet reprehenderit natus placeat iusto praesentium corporis dolorem fugit aperiam, quis
+        perferendis repellendus eos quam perspiciatis nihil voluptatibus unde. Unde fugiat maiores sunt aliquid.
+        Assumenda repudiandae eius vel. Laudantium, nihil, provident sapiente itaque sint quos aperiam aliquid maxime
+        dolores laborum animi saepe. Amet beatae voluptas dignissimos doloremque dicta est. Ex soluta neque, id quasi
+        voluptatibus tenetur fugiat odio voluptatem, placeat optio recusandae. Sunt quis nulla atque excepturi est
+        veniam minima nesciunt corrupti fugiat quasi tempora perferendis molestiae fuga, neque itaque enim sint?
+        Sapiente cupiditate explicabo commodi maiores nulla. Amet suscipit, deleniti, officia explicabo magni,
+        perspiciatis quia quam quas officiis consectetur provident doloremque sequi culpa aliquid qui laborum eaque
+        doloribus facere ratione dignissimos placeat error? Soluta quibusdam laborum provident ut neque architecto,
+        dicta laudantium fugiat quisquam minima commodi quaerat vitae maxime nesciunt aperiam assumenda debitis mollitia
+        sit doloribus velit aliquam modi. A aperiam recusandae accusamus qui delectus molestias optio consequuntur
+        consectetur tempore perferendis obcaecati officia totam amet labore animi, deleniti cupiditate nobis vel
+        corporis. Ipsum in, quae dolor et cumque magni pariatur eum iusto ipsa perspiciatis deleniti similique eligendi
+        doloremque rem dignissimos aliquid cupiditate animi. Fuga atque natus voluptates possimus nobis eum odio odit
+        quidem dignissimos, iste cum ea maxime sapiente dolor harum commodi vitae! Molestiae aut exercitationem
+        doloribus facilis. Eaque ipsa ratione eveniet. Praesentium aut vitae ex eveniet blanditiis sunt, dicta possimus
+        reiciendis ut minus molestiae consectetur? Aperiam impedit quos dolores voluptas eveniet, reprehenderit repellat
+        odit sit magnam, vero dolore repellendus? Facere dolores corrupti sapiente omnis enim maiores repudiandae, quam
+        dignissimos voluptas, quasi ad animi error alias repellendus, natus at! Iusto, temporibus necessitatibus
+        inventore sequi nobis quasi dolor reprehenderit officia expedita ad eius accusamus quo dicta eligendi! Suscipit
+        quas placeat recusandae autem, minima pariatur at est dignissimos nihil doloremque ab exercitationem eum
+        nesciunt blanditiis, sed aut. Aperiam accusamus distinctio optio quaerat magni excepturi harum? Provident natus
+        quisquam optio fugiat nihil libero quibusdam debitis, nam, eos cupiditate possimus modi! Ratione natus nesciunt
+        dolorem reprehenderit corrupti! Voluptatibus, fugiat! Dolor eius eligendi consequuntur accusantium modi suscipit
+        dignissimos a nulla quia? Vero, voluptatum. Blanditiis commodi rerum dolore qui eveniet saepe voluptatum ipsum,
+        officiis minima accusantium perferendis sint doloremque maiores animi voluptas architecto beatae suscipit
+        placeat officia voluptatem quos cumque repellat. Sunt incidunt doloremque pariatur quis ipsa enim eos dolores
+        quaerat officia illum, similique repudiandae quidem vel cumque eaque blanditiis voluptatem. Quas possimus
+        laborum tempore placeat, debitis adipisci a qui omnis est ducimus? Recusandae, explicabo! Eligendi repellendus
+        voluptatum dignissimos vel facilis odio voluptatem in, vitae maxime incidunt optio libero corporis magni dicta
+        quam blanditiis nesciunt pariatur quasi rerum quas culpa, porro accusantium esse. Quos qui nisi pariatur,
+        impedit hic veritatis placeat, a eaque tempore maiores nostrum, reiciendis ratione tempora quam et ipsa ab neque
+        deserunt accusantium laborum?</p>
+    </div>
+
+    <!-- Карусель -->
+    <div class="div-4 container border border-primary">
+      <h2>Карусель 4</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In cum accusantium perferendis quos, impedit facilis
+        labore! Saepe perspiciatis quae cumque eos culpa velit blanditiis aspernatur hic maiores eius earum quasi
+        repellat facilis ipsa maxime nobis, reprehenderit iste optio? Deserunt, delectus hic, dolor quasi excepturi
+        libero ex incidunt dicta amet reprehenderit natus placeat iusto praesentium corporis dolorem fugit aperiam, quis
+        perferendis repellendus eos quam perspiciatis nihil voluptatibus unde. Unde fugiat maiores sunt aliquid.
+        Assumenda repudiandae eius vel. Laudantium, nihil, provident sapiente itaque sint quos aperiam aliquid maxime
+        dolores laborum animi saepe. Amet beatae voluptas dignissimos doloremque dicta est. Ex soluta neque, id quasi
+        voluptatibus tenetur fugiat odio voluptatem, placeat optio recusandae. Sunt quis nulla atque excepturi est
+        veniam minima nesciunt corrupti fugiat quasi tempora perferendis molestiae fuga, neque itaque enim sint?
+        Sapiente cupiditate explicabo commodi maiores nulla. Amet suscipit, deleniti, officia explicabo magni,
+        perspiciatis quia quam quas officiis consectetur provident doloremque sequi culpa aliquid qui laborum eaque
+        doloribus facere ratione dignissimos placeat error? Soluta quibusdam laborum provident ut neque architecto,
+        dicta laudantium fugiat quisquam minima commodi quaerat vitae maxime nesciunt aperiam assumenda debitis mollitia
+        sit doloribus velit aliquam modi. A aperiam recusandae accusamus qui delectus molestias optio consequuntur
+        consectetur tempore perferendis obcaecati officia totam amet labore animi, deleniti cupiditate nobis vel
+        corporis. Ipsum in, quae dolor et cumque magni pariatur eum iusto ipsa perspiciatis deleniti similique eligendi
+        doloremque rem dignissimos aliquid cupiditate animi. Fuga atque natus voluptates possimus nobis eum odio odit
+        quidem dignissimos, iste cum ea maxime sapiente dolor harum commodi vitae! Molestiae aut exercitationem
+        doloribus facilis. Eaque ipsa ratione eveniet. Praesentium aut vitae ex eveniet blanditiis sunt, dicta possimus
+        reiciendis ut minus molestiae consectetur? Aperiam impedit quos dolores voluptas eveniet, reprehenderit repellat
+        odit sit magnam, vero dolore repellendus? Facere dolores corrupti sapiente omnis enim maiores repudiandae, quam
+        dignissimos voluptas, quasi ad animi error alias repellendus, natus at! Iusto, temporibus necessitatibus
+        inventore sequi nobis quasi dolor reprehenderit officia expedita ad eius accusamus quo dicta eligendi! Suscipit
+        quas placeat recusandae autem, minima pariatur at est dignissimos nihil doloremque ab exercitationem eum
+        nesciunt blanditiis, sed aut. Aperiam accusamus distinctio optio quaerat magni excepturi harum? Provident natus
+        quisquam optio fugiat nihil libero quibusdam debitis, nam, eos cupiditate possimus modi! Ratione natus nesciunt
+        dolorem reprehenderit corrupti! Voluptatibus, fugiat! Dolor eius eligendi consequuntur accusantium modi suscipit
+        dignissimos a nulla quia? Vero, voluptatum. Blanditiis commodi rerum dolore qui eveniet saepe voluptatum ipsum,
+        officiis minima accusantium perferendis sint doloremque maiores animi voluptas architecto beatae suscipit
+        placeat officia voluptatem quos cumque repellat. Sunt incidunt doloremque pariatur quis ipsa enim eos dolores
+        quaerat officia illum, similique repudiandae quidem vel cumque eaque blanditiis voluptatem. Quas possimus
+        laborum tempore placeat, debitis adipisci a qui omnis est ducimus? Recusandae, explicabo! Eligendi repellendus
+        voluptatum dignissimos vel facilis odio voluptatem in, vitae maxime incidunt optio libero corporis magni dicta
+        quam blanditiis nesciunt pariatur quasi rerum quas culpa, porro accusantium esse. Quos qui nisi pariatur,
+        impedit hic veritatis placeat, a eaque tempore maiores nostrum, reiciendis ratione tempora quam et ipsa ab neque
+        deserunt accusantium laborum?</p>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="fixed-bottom text-center bg-body-tertiary">&copy; komdim - 2025</div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
+  <script src="source/js/jquery-3.7.1.js"></script>
+  <script src="source/js/script.js"></script>
+</body>
+
+</html>

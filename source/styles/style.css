@@ -1,0 +1,19 @@
+:root{
+    --header-padding: 3.5rem;
+    --footer-padding: 1.5rem;
+}
+section{
+    padding: var(--header-padding) 0 var(--footer-padding);
+}
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover
+{
+    color: #07a3a3;
+}
+.div-gallery,.div-1,.div-2,.div-3,.div-4{
+    display: none;
+}
+.img-radius{
+    width: 70%;
+    border-radius: 50%;
+}
