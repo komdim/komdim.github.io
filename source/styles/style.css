@@ -6,18 +6,33 @@
 section{
     padding: var(--header-padding) 0 var(--footer-padding);
 }
+
 /* изменяет цвет item меню при наведении */
 .navbar .nav-link:hover,
 .navbar .dropdown-item:hover
 {
     color: #07a3a3;
 }
+
 /* округляем img на главной странице */
 .img-radius{
     width: 70%;
     border-radius: 50%;
 }
+
 /* выравнивает текст по ширине */
 .align-just{
     text-align: justify;
+}
+
+/* настройки для карусели */
+.div-carousel{
+    margin-top: -3.5rem;
+    margin-bottom: -1.5rem;
+    background-color: lightgray;
+}
+.carousel-item>img,
+.carousel-caption,
+.carousel-indicators{
+    padding: var(--header-padding) 0 var(--footer-padding);
 }
