@@ -1,38 +1,68 @@
-:root{
+:root {
     --header-padding: 3.5rem;
     --footer-padding: 1.5rem;
 }
+
 /* выставить отступы на header и footer */
-section{
+section {
     padding: var(--header-padding) 0 var(--footer-padding);
 }
 
 /* изменяет цвет item меню при наведении */
 .navbar .nav-link:hover,
-.navbar .dropdown-item:hover
-{
+.navbar .dropdown-item:hover {
     color: #07a3a3;
 }
 
 /* округляем img на главной странице */
-.img-radius{
+.img-radius {
     width: 70%;
     border-radius: 50%;
 }
 
 /* выравнивает текст по ширине */
-.align-just{
+.align-just {
     text-align: justify;
 }
 
 /* настройки для карусели */
-.div-carousel{
+.div-carousel {
     margin-top: -3.5rem;
     margin-bottom: -1.5rem;
     background-color: lightgray;
 }
+
 .carousel-item>img,
 .carousel-caption,
-.carousel-indicators{
+.carousel-indicators {
     padding: var(--header-padding) 0 var(--footer-padding);
+}
+
+/* услуги ЖКХ */
+.div-service {
+    text-align: justify;
+}
+
+.div-service a {
+    text-decoration: none;
+}
+.div-service button {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.service-item {
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 1rem 1rem 1rem rgb(197, 195, 195);
+    margin: 2rem 1rem;
+    padding: 10px;
+    display: inline-flex;
+    height: 80px;
+}
+
+.service-item>p {
+    margin-left: 0.5rem;
+    text-align: center;
+    color: darkgray;
 }
